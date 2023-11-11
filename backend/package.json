@@ -17,6 +17,7 @@
   "scripts": {
     "start": "node index.js",
     "prisma": "prisma",
-    "migrate": "prisma migrate dev --name init"
+    "migrate": "prisma migrate dev --name init",
+    "seed": "node prisma/seeder.js"
   }
 }
